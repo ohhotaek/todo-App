@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    /* 최신 JavaScript 문법을 구형 브라우저에서도 호환 가능하도록 변환하는 Babel 프리셋입니다. */
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime"
+    /* 재사용 가능한 헬퍼 코드를 만들어 코드 중복을 줄이고 실행 성능을 향상시키는 Babel 플러그인입니다. */
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "vue-todo-app",
+  "version": "1.0.0",
+  "description": "Vue Todo App",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint --ext .js,.vue .",
+    "lint:fix": "eslint --fix --ext .js,.vue ."
+  },
+  "keywords": [
+    "vue",
+    "todo"
+  ],
+  "browerslist": [
+    "last 2 versions",
+    "ie >= 10"
+  ],
+  "author": "HEROPY",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "autoprefixer": "^10.4.20",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.2.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^7.2.1",
+    "eslint-plugin-standard": "^4.1.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "html-webpack-plugin": "^5.6.3",
+    "ignore-loader": "^0.1.2",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.50.0",
+    "sass-loader": "^10.5.2",
+    "schema-utils": "^4.3.0",
+    "ts-loader": "^9.5.2",
+    "vue": "^2.7.16",
+    "vue-loader": "^15.11.1",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.7.16",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "core-js": "^3.40.0",
+    "crypto-random-string": "^5.0.0",
+    "dayjs": "^1.11.13",
+    "lodash": "^4.17.21",
+    "lowdb": "^1.0.0",
+    "regenerator-runtime": "^0.14.1",
+    "scroll-to": "^0.0.2",
+    "vue-router": "^3.6.5",
+    "vuex": "^3.6.2"
+  }
+}
